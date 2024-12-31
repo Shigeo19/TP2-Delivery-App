@@ -15,7 +15,7 @@ public:
 	 Chauffeur(string nom, string id, double salaire, string typeVehicule)
 	        : RessourceHumaine(nom, id, salaire), typeVehicule(typeVehicule), disponible(true) {}
 
-	 void afficherDetails() override;
+	 void afficherDetails();
 
 	 void setDisponibilite(bool status);
 };

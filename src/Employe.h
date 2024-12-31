@@ -14,7 +14,7 @@ public:
 	Employe(string nom, string id, double salaire, string section)
     : RessourceHumaine(nom, id, salaire), section(section) {}
 
-	void afficherDetails() override;
+	void afficherDetails();
 
 };
 
